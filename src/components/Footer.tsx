@@ -7,10 +7,10 @@ interface FooterProps {
 export class Footer extends React.Component<FooterProps> {
   render() {
     return (
-      <div>
+      <footer>
         <h2>{this.props.licence}</h2>
-        <footer>ここはfooterだよ</footer>
-      </div>
+        <h2>ここはfooterだよ</h2>
+      </footer>
     );
   }
 }

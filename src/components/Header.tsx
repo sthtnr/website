@@ -7,10 +7,10 @@ interface HeaderProps {
 export class Header extends React.Component<HeaderProps> {
   render() {
     return (
-      <div>
+      <header>
         <h2>{this.props.title}</h2>
-        <header>ここはheaderだよ</header>
-      </div>
+        <h2>ここはheaderだよ</h2>
+      </header>
     );
   }
 }
