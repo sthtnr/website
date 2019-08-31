@@ -24,6 +24,11 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/,
       },
+      {
+        test: /\.css$/,
+        loaders: ['style-loader', 'css-loader?modules'],
+        exclude: /node_modules/,
+      },
     ],
   },
   resolve: {

@@ -1,15 +1,17 @@
 import React from 'react';
-import { Header } from './Header';
-import { Footer } from './Footer';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import { Contents } from './Contents';
+import * as layoutStyles from '../style/layout.css';
 
-export interface LayoutProps {}
-
-export class Layout extends React.Component<LayoutProps> {
+export class Layout extends React.Component {
   render() {
     return (
       <div>
-        <Header title='TypeScript&React App' />
-        <Footer licence='MIT' />
+        <div className={layoutStyles.contents}>
+          <Contents />
+        </div>
       </div>
     );
   }
