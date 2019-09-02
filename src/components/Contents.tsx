@@ -57,6 +57,8 @@ export class Contents extends React.Component {
               </Col>
             </Row>
 
+            <br />
+            <br />
             <Route exact path='/' component={Home} />
             <Route path='/profile' component={Profile} />
             <Route path='/works' component={Works} />
