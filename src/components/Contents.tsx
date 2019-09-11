@@ -5,7 +5,6 @@ import { Home } from './Home';
 import { Profile } from './Profile';
 import { Works } from './Works';
 import { Contact } from './Contact';
-// import * as contentsStyles from '../style/contents.css';
 import * as cardsStyles from '../style/cards.css';
 import * as layoutStyles from '../style/layout.css';
 

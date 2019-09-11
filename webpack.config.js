@@ -6,11 +6,13 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.join(__dirname, 'dist'),
+    publicPath: '/',
   },
   devtool: 'eval',
   devServer: {
     inline: true,
     hot: true,
+    historyApiFallback: true,
     open: true,
     openPage: 'index.html',
     contentBase: path.join(__dirname, 'dist'),
