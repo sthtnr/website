@@ -11,7 +11,7 @@ module.exports = merge(common, {
     historyApiFallback: true,
     open: true,
     openPage: 'index.html',
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'public'),
     watchContentBase: true,
     port: 8080,
   },
