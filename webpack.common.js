@@ -1,23 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
   entry: './src/index.tsx',
   output: {
     filename: 'main.js',
     path: path.join(__dirname, 'dist'),
     publicPath: '/',
-  },
-  devtool: 'eval',
-  devServer: {
-    inline: true,
-    hot: true,
-    historyApiFallback: true,
-    open: true,
-    openPage: 'index.html',
-    contentBase: path.join(__dirname, 'dist'),
-    watchContentBase: true,
-    port: 8080,
   },
   module: {
     rules: [
