@@ -1,6 +1,4 @@
 node_modules/
-dist/
+public/
 
 comment.md
-hoge.txt
-fuga.txt
